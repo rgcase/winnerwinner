@@ -6,7 +6,7 @@ name := "winnerwinner"
 
 organization := "com.rgcase"
 
-version := "0.1.3"
+version := "0.1.5"
 
 scalaVersion := "2.11.8"
 
@@ -20,6 +20,10 @@ libraryDependencies ++= Seq(
   "org.scala-lang.modules" %% "scala-java8-compat" % "0.8.0",
 
   "org.asynchttpclient" % "async-http-client" % "2.0.24",
+  "org.apache.httpcomponents" % "httpclient" % "4.5.2",
+  "org.apache.httpcomponents" % "httpclient-cache" % "4.5.2",
+  "org.apache.httpcomponents" % "httpmime" % "4.5.2",
+  "org.apache.httpcomponents" % "fluent-hc" % "4.5.2",
 
   "com.amazonaws" % "aws-java-sdk-sns" % "1.11.22",
   "com.amazonaws" % "aws-lambda-java-core" % "1.0.0",
